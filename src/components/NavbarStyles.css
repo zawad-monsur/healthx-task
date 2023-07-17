@@ -1,0 +1,57 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5fdfd;
+    padding:  20px 80px;
+    box-shadow: 0 5px 15px rgba;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #302e2e9f; 
+    transition: .2s ease-in-out; 
+}
+
+#navbar li a:hover{
+    color: rgb(28, 56, 56);
+}
+
+#navbar button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #049eb3;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: all .2s;
+  vertical-align: baseline;
+  width: auto;
+}
