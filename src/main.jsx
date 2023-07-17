@@ -4,10 +4,11 @@ import App from './App.jsx'
 
 import './index.css'
 import Navbar from './components/Navbar.jsx'
+import Body from './components/Body.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Navbar />
-        <App />
+        <Body/>
     </React.StrictMode>
 )
